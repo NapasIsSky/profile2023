@@ -106,3 +106,13 @@
   height: 96vh;
   padding-bottom: 16px;
 }
+
+.details_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin-top: 4%;
+  height: 80%;
+}

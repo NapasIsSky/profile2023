@@ -75,7 +75,7 @@ export default function Home() {
                   <p className="btn-text white-text uppercase">contact</p>
                 </div>
               </nav>
-              <div className="flex flex-col items-center overflow-x-hidden overflow-y-auto h-40 mt-16">
+              <div className={Style.details_content}>
                 {/* skills */}
                 <div className="bg-neutral-950 bg-opacity-30 rounded-lg backdrop-blur flex flex-row items-center justify-around w-full">
                   <div className="auto-cols-max flex-1">
